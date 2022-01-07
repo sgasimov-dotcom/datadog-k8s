@@ -1,0 +1,13 @@
+datadog:
+  apiKey: 809634194bd701e2541141e78c530cc9
+  appKey: 59f4da1cc3bb5b88024148ab9f2eb028e763436c
+
+datadog:
+  logs:
+    enabled: true
+    containerCollectAll: true
+
+namespaceLabelsAsTags: 
+  env: datadog
+  #   <KUBERNETES_NAMESPACE_LABEL>: <DATADOG_TAG_KEY>
+
